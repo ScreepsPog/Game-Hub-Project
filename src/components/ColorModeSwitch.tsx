@@ -6,6 +6,7 @@ const ColorModeSwitch = () => {
   return (
     <HStack>
       <Switch
+        aria-label="Dark Mode Switch"
         colorScheme="green"
         isChecked={colorMode === "dark"}
         onChange={toggleColorMode}
